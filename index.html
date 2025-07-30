@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design Hero Page</title>
+    <title>UpConstruction Template</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Link Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+
 </head>
 
 <body>
@@ -47,29 +50,59 @@
                     <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
                 </ul>
             </div>
+            <aside class="sidebar">
+                <ul class="sidebar-list">
+                    <li class="sidebar-item close-button">
+                        <i class="fa-solid fa-xmark"></i>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Home</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">About</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Services</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Projects</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Blog</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Dropdown</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Contract</a>
+                    </li>
+                </ul>
+            </aside>
         </div>
     </header>
     <main>
         <section class="hero-section">
-            <div class="swiper-wrapper">
-                <swiper-container class="mySwiper" pagination="true" pagination-type="progressbar" navigation="true">
-                    <swiper-slide>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
                         <img src="assets/images/hero-carousel/hero-carousel-1.jpg" alt="">
-                    </swiper-slide>
-                    <swiper-slide>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="assets/images/hero-carousel/hero-carousel-2.jpg" alt="">
-                    </swiper-slide>
-                    <swiper-slide>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="assets/images/hero-carousel/hero-carousel-3.jpg" alt="">
-                    </swiper-slide>
-                    <swiper-slide>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="assets/images/hero-carousel/hero-carousel-4.jpg" alt="">
-                    </swiper-slide>
-                    <swiper-slide>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="assets/images/hero-carousel/hero-carousel-5.jpg" alt="">
-                    </swiper-slide>
-
-                </swiper-container>
+                    </div>
+                </div>
+                <div class="swiper-button-next next-slide"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
             <div class="content">
                 <h1 class="title">Welcome to <br>UpConstrustion</h1>
@@ -81,8 +114,141 @@
                 <a href="#" class="btn btn-get-strat">Get Started</a>
             </div>
         </section>
+
+        <section class="portfolio-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="image-card">
+                            <img src="assets/images/hero-carousel/hero-carousel-3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="portfolio-card">
+                            <h1 class="title">
+                                Enim quis est voluptatibus aliquid consequatur fugiat
+                            </h1>
+                            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed
+                                minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+                            <div class="row">
+                                <div class="col-12 mt-5">
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <div class="portfolio-icon">
+                                                    <i class="fa-solid fa-tv"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="text">
+                                                    <h3>Lorem Ipsum</h3>
+                                                    <span>Voluptatum deleniti atque corrupti quos dolores et quas
+                                                        molestias excepturi sint occaecati cupiditate non
+                                                        provident</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-5">
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <div class="portfolio-icon">
+                                                    <i class="fa-regular fa-cloud"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="text">
+                                                    <h3>Nemo Enim</h3>
+                                                    <span>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                                                        blanditiis praesentium voluptatum deleniti atque.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-5">
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <div class="portfolio-icon">
+                                                    <i class="fa-regular fa-sun"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="text">
+                                                    <h3>Codex tuus</h3>
+                                                    <span>Explicabo est voluptatum asperiores consequatur magnam. Et
+                                                        veritatis odit. Sunt aut deserunt minus aut eligendi
+                                                        omnis</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-5">
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <div class="portfolio-icon">
+                                                    <i class="fa-regular fa-sun"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="text">
+                                                    <h3>Tride Clov</h3>
+                                                    <span>Est voluptatem labore deleniti quis a delectus et. Saepe
+                                                        dolorem libero sit non aspernatur odit amet. Et eligendi</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <!-- Start Footer HTML -->
+    <footer>
+        <span>
+            <i class="fa-solid fa-copyright"></i>
+            Copyright <span class="bold">UpConstruction.</span> All Right Reserved <br>Design by <span
+                class="highlight">HorSengHab</span></span>
+    </footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        effect: "fade",
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+
+    const sideBar = document.querySelector('.sidebar');
+    var isActive = 1;
+    document.querySelector('.toggle-button').addEventListener('click', function () {
+        sideBar.classList.add('active');
+    });
+    document.querySelector('.close-button').addEventListener('click', function () {
+        sideBar.classList.remove('active');
+    });
+</script>
 
 </html>
